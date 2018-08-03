@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import backgrounds from '@storybook/addon-backgrounds';
 
-import Loader from './Loader';
+import Loader from '../index';
 
 storiesOf('Loader', module)
   .addDecorator(backgrounds([
